@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Barlow;
+    src: url(./Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
+}
+body {
+    background: #D9E0E6;
+    font-family: Barlow;
+    font-size: 13px;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card {
+    width: 40vw;
+    height: 40vh;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+.daniel {
+    background: #733FC8;
+}
+
+.svg {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    opacity: 0.5;
+}
+
+.img {
+    display: inline-block;
+}
+
+.img img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.title {
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    float: inline-start;
+}
+
+.title h3 {
+    
+}
+
+.title p {
+    opacity: 0.5;
+}
