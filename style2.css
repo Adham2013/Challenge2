@@ -3,10 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Barlow;
     src: url(./Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
 }
+
 body {
     background: #D9E0E6;
     font-family: Barlow;
@@ -20,6 +22,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .card {
     width: 40vw;
     height: 40vh;
@@ -54,13 +57,21 @@ body {
     display: inline-block;
     color: #fff;
     padding: 10px;
-    float: inline-start;
-}
-
-.title h3 {
-    
 }
 
 .title p {
+    opacity: 0.5;
+}
+
+.h1 {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+.paragraphe p {
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
     opacity: 0.5;
 }
