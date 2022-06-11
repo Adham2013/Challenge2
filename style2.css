@@ -13,6 +13,7 @@ body {
     background: #D9E0E6;
     font-family: Barlow;
     font-size: 13px;
+    user-select: none;
 }
 
 
@@ -24,13 +25,17 @@ body {
 }
 
 .card {
-    width: 40vw;
-    height: 40vh;
+
+    /* display: grid;
+    grid-column: 1/9;
+    grid-row: 1/9; */
     padding: 2em;
     border-radius: 5px;
 }
 
 .daniel {
+    width: 40vw;
+    height: 40vh;
     background: #733FC8;
 }
 
@@ -57,16 +62,20 @@ body {
     display: inline-block;
     color: #fff;
     padding: 10px;
+    position: relative;
+    top: 0;
 }
 
 .title p {
     opacity: 0.5;
 }
 
-.h1 {
+.h1 h1{
     font-size: 20px;
     color: #fff;
     padding: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .paragraphe p {
@@ -74,4 +83,28 @@ body {
     font-size: 10px;
     color: #fff;
     opacity: 0.5;
+}
+ .joni{
+    background-color: gray;
+}
+
+@media (max-width: 970px){
+    .container{
+        width: 100%;
+        position: relative;
+    }
+    .card{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-top: 1em;
+    }
+     .paragraphe p{
+         font-size: 15px;
+         margin: 25px 0;
+     }
+     .h1 h1{
+         margin: 25px 0;
+         font-size: 25px;
+     }
 }
